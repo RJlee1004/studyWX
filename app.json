@@ -1,13 +1,50 @@
 {
   "pages":[
+    "pages/demo02/demo02",
+    "pages/demo01/demo01",
     "pages/index/index",
+    "pages/rights/rights",
+    "pages/welfare/welfare",
+    "pages/mine/mine",
     "pages/logs/logs"
+
   ],
   "window":{
-    "backgroundTextStyle":"light",
+    "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#2e2e2e"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "img/tabbar/tab_index.png",
+      "selectedIconPath": "img/tabbar/tab_index_active.png"
+    },
+    {
+      "pagePath": "pages/rights/rights",
+      "text": "特权",
+      "iconPath": "img/tabbar/tab_rights.png",
+      "selectedIconPath": "img/tabbar/tab_rights_active.png"
+    },
+    {
+      "pagePath": "pages/welfare/welfare",
+      "text": "福利",
+      "iconPath": "img/tabbar/tab_welfare.png",
+      "selectedIconPath": "img/tabbar/tab_welfare_active.png"
+    },
+    {
+    "pagePath": "pages/mine/mine",
+    "text": "我的",
+    "iconPath": "img/tabbar/tab_mine.png",
+    "selectedIconPath": "img/tabbar/tab_mine_active.png"
+  }],
+  "color": "#ccc",
+  "selectedColor": "#fff",
+  "backgroundColor": "#aaa"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
