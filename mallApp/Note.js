@@ -24,4 +24,30 @@
   }
 }
 
+小程序缓存技术{
+        0 web本地存储与小程序本地存储的区别{
+        web： localStorage.setItem("key","value")   localStorage.getItem("key")
+        小程序： wx.setStorageSync("key","value")  wx.getStorageSync("key")
+
+        存的时候，是否做类型转换{
+          web： 无论存入什么类型的数据，最终先会调用toString()，把数据变成字符串再存入
+          小程序： 没有类型转换这个操作，存什么类型的数据，获取的时候就是什么类型
+        }
+      }
+      先判断一下本地存储中有没有旧的数据
+      没有旧数据直接发送新请求
+      有旧数据 同时 旧数据没有过期 就使用本地存储的旧数据即可
+}
+
+小程序支持es7的async语法{
+  es7的async是解决回调地狱的最终方案，在小程序中配置过程{
+    1 在小程序开发工具中，勾选es6转es5语法
+    2 下载facebook的regenerator库中的regenerator/packages/regenerator-runtime/runtime.js
+    3 在小程序目录下新建文件夹lib/runtime/runtime.js，将代码拷贝进去
+    4 在每一个需要async语法的页面js文件中，都引入（不能全局引入）
+      import regeneratorRuntime from '../../lib/runtime/runtime'
+  }
+}
+
+
 */
