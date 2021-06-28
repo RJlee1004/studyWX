@@ -1,0 +1,30 @@
+<!-- <radio-group bindchange="handleChange">
+  <radio value="male">
+    男
+  </radio >
+  <radio value="female">
+    女
+  </radio>
+</radio-group>
+<text>
+  您的性别是：{{gender}}
+</text>
+
+<view>
+  <checkbox-group bindchange="getFruits">
+    <checkbox value="{{item.value}}" wx:for="{{list}}" wx:key="id">
+      {{item.name}}      
+    </checkbox>
+    <view>
+      您选中了{{checkList}}
+    </view>
+      
+  </checkbox-group>
+</view> -->
+<Tabs tabs="{{tabs}}" binditemChange="handleItemChange">
+  <block wx:if="{{tabs[0].isActive}}">0</block>
+  <block wx:elif="{{tabs[1].isActive}}">1</block>
+  <block wx:elif="{{tabs[2].isActive}}">2</block>
+  <block wx:else="{{tabs[3].isActive}}">3</block>
+</Tabs>
+  

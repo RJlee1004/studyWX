@@ -1,0 +1,50 @@
+<!-- <button size="mini">小号按钮</button>
+<button>默认按钮</button>
+<button type="primary">绿色按钮</button>
+<button type="warn">红色按钮</button>
+<button plain>plain按钮</button>
+<button loading>loading按钮</button> -->
+<!-- <button open-type="contact">contact</button>
+<button open-type="share">share</button>
+<button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">getPhoneNumber</button>
+<button open-type="getUserInfo" bindgetuserinfo="getUserinfo">getUserinfo</button>
+<button open-type="launchApp">launchApp</button>
+<button open-type="openSetting">openSetting</button>
+<button open-type="feedback">feedback</button> -->
+<icon class="" type="success" size="40" color="blue">
+  
+</icon>
+<icon class="" type="cancel" size="40" color="blue">
+  
+</icon>
+<icon class="" type="success_no_circle" size="23" color="">
+  
+</icon>
+<icon class="" type="info" size="23" color="">
+  
+</icon>
+<icon class="" type="warn" size="23" color="">
+  
+</icon>
+<icon class="" type="waiting" size="23" color="">
+  
+</icon>
+<icon class="" type="download" size="23" color="">
+  
+</icon>
+<icon class="" type="search" size="23" color="">
+  
+</icon>
+<icon class="" type="clear" size="23" color="">
+  
+</icon>
+  
+  
+  
+  
+  
+  
+  
+  
+
+

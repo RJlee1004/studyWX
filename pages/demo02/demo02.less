@@ -1,0 +1,39 @@
+// @import "../../styles/common.wxss";
+
+/* view {
+  width: calc(750rpx * 100 / 375);
+  height: 200rpx;
+  font-size: 40rpx;
+  background-color: aqua;
+} */
+@color: yellow;
+view {
+  color: @color;
+}
+
+view {
+  .vie1 {
+    text {
+      color: red;
+    }
+  }
+}
+
+// 导入
+@import "../../styles/reset";
+view {
+  color: @themeColor;
+}
+// image {
+//   box-sizing: border-box;
+//   border: 1px solid red;
+//   width: 300px;
+//   height: 200px;
+// }
+image {
+  width: 100%;
+}
+swiper {
+  width: 100%;
+  height: calc(100vw * 280 / 520);
+}

@@ -1,0 +1,37 @@
+<!--pages/demo02/demo02.wxml-->
+<!-- <input type="text" bindinput="handleInput"/>
+<button bindtap="handletap" data-operation="{{1}}">+</button>
+<button bindtap="handletap" data-operation="{{-1}}">-</button>
+<view>
+  {{num}}
+</view> -->
+<text selectable decode>
+  rpx&nbsp;123 &lt;
+</text>
+<image src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" mode="widthFix"/>
+<swiper autoplay interval="1000" circular indicator-dots indicator-color="red" indicator-active-color="yellow">
+  <swiper-item>
+    <image mode="widthFix" src="https://img.alicdn.com/imgextra/i4/6000000001266/O1CN01r9ist01LDs6BeBe1j_!!6000000001266-0-octopus.jpg"/>
+  </swiper-item>
+  <swiper-item>
+    <image mode="widthFix" src="https://aecpm.alicdn.com/simba/img/TB183NQapLM8KJjSZFBSutJHVXa.jpg"/>
+  </swiper-item>
+  <swiper-item>
+    <image mode="widthFix" src="https://aecpm.alicdn.com/simba/img/TB1JNHwKFXXXXafXVXXSutbFXXX.jpg"/>
+  </swiper-item>
+  <swiper-item>
+    <image mode="widthFix" src="https://img.alicdn.com/imgextra/i1/2206686532409/O1CN01TkmhbD1TfMnWK5yFj_!!2206686532409-0-lubanimage.jpg"/>
+  </swiper-item>
+</swiper>
+<navigator url="/pages/demo01/demo01">跳转demo01页面</navigator>
+<navigator open-type="redirect" url="/pages/demo01/demo01">跳转demo01页面，无法返回</navigator>
+<navigator url="/pages/index/index">跳转tabbar页面</navigator>
+<navigator open-type="switchTab" url="/pages/index/index">switchTab跳转tabbar页面</navigator>
+
+<rich-text class="" nodes="{{html}}">
+  
+</rich-text>
+  
+  
+  
+  

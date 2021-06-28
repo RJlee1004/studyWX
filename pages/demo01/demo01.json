@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "backgroundColor": "#ccc",
+  "navigationBarBackgroundColor": "#0094aa",
+  "navigationBarTitleText": "Study",
+  "enablePullDownRefresh": false
+}
