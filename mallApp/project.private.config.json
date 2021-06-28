@@ -23,6 +23,42 @@
           "pathName": "pages/goods_list/index",
           "query": "cid=5",
           "scene": null
+        },
+        {
+          "name": "pages/goods_detail/index",
+          "pathName": "pages/goods_detail/index",
+          "query": "goods_id=43986",
+          "scene": null
+        },
+        {
+          "name": "pages/cart/index",
+          "pathName": "pages/cart/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/pay/index",
+          "pathName": "pages/pay/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/auth/index",
+          "pathName": "pages/auth/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "user",
+          "pathName": "pages/user/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/order/index",
+          "pathName": "pages/order/index",
+          "query": "type=1",
+          "scene": null
         }
       ]
     }

@@ -24,7 +24,6 @@ Component({
     handleItemTap(e) {
       const { index } = e.currentTarget.dataset;
       this.triggerEvent("tabsItemChange", {index});
-
     }
   }
 })
